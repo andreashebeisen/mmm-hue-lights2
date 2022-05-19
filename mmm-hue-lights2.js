@@ -1,7 +1,7 @@
 /* global Module */
 
 /* Magic Mirror
- * Module: mmm-hue-lights
+ * Module: mmm-hue-lights2
  *
  * By Michael Schmidt
  * https://github.com/michael5r
@@ -36,13 +36,13 @@ Module.register('mmm-hue-lights2', {
     getScripts: function() {
         return [
             'handlebars.runtime.min-v4.0.12.js',
-            'mmm-hue-lights-templates.js'
+            'mmm-hue-lights-templates2.js'
         ];
     },
 
     getStyles: function() {
         return [
-            'mmm-hue-lights.css'
+            'mmm-hue-lights2.css'
         ];
     },
 

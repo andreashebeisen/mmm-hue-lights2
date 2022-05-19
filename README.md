@@ -1,6 +1,6 @@
-# Module: mmm-hue-lights
+# Module: mmm-hue-lights2
 
-The `mmm-hue-lights` module is a [MagicMirror](https://github.com/MichMich/MagicMirror) addon.
+The `mmm-hue-lights2` module is a [MagicMirror](https://github.com/MichMich/MagicMirror) addon.
 This module requires MagicMirror version `2.5` or later.
 
 This module displays the status of your [Philips Hue](http://meethue.com) lights and light groups on your Magic Mirror and and supports multiple view types and modes.
@@ -32,8 +32,8 @@ Please note that this module still uses v1 of the Hue API - once v2 of the Hue A
 
 
 ## Installing the module
-1. Run `git clone https://github.com/michael5r/mmm-hue-lights.git` from inside your `MagicMirror/modules` folder.
-2. Enter the new `mmm-hue-lights` directory and execute `npm install`.
+1. Run `git clone https://github.com/andreashebeisen/mmm-hue-lights2.git` from inside your `MagicMirror/modules` folder.
+2. Enter the new `mmm-hue-lights2` directory and execute `npm install`.
 
 
 ## Getting the Hue credentials
@@ -54,7 +54,7 @@ To use this module, simply add it to the `modules` array in the MagicMirror `con
 
 ```js
 {
-    module: "mmm-hue-lights",
+    module: "mmm-hue-lights2",
     position: "top_right", // pick whichever position you want
     config: {
         bridgeIp: "<HUE_BRIDGE_IP>",
